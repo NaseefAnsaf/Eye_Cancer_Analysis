@@ -59,8 +59,8 @@ import pandas as pd
 from datetime import datetime
 
 # File path
-input_file = r"Cancer Analysis\eye_cancer_patients.csv"
-output_file = r"Cancer Analysis\Eye cancer patients dataset_cleaned.csv"
+input_file = "eye_cancer_patients.csv"
+output_file = "Eye cancer patients dataset_cleaned.csv"
 
 # Load the dataset
 df = pd.read_csv(input_file)
@@ -94,7 +94,7 @@ print("Dataset cleaned and saved to:", output_file)
 import pandas as pd
 
 # File path
-file_path = r"Cancer Analysis\Eye cancer patients dataset_cleaned.csv"
+file_path = "Eye cancer patients dataset_cleaned.csv"
 
 # Load the dataset
 df = pd.read_csv(file_path)
